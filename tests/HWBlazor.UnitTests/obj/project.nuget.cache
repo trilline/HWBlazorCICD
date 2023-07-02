@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SXPaYz2nj6bb2KQ9FD/FiF5HfXRpwu/OYaolMzGMqk8S7nDKbH+TxnWDQhCgirD5UFCeAYV32D3IJWfFneL1jQ==",
+  "dgSpecHash": "Q7tQw95+Ht96YoTlZ/ur4hIgC4vyAUE2GH9PDnvl4p/dlK85InHhFLl/FGftjX2uNwg+LMwQjXe2HVE38FnuPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\tests\\HWBlazor.UnitTests\\HWBlazor.UnitTests.csproj",
   "expectedPackageFiles": [

@@ -97,3 +97,12 @@ C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\obj\D
 C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\obj\Debug\net7.0\HWBlazor.UnitTests.pdb
 C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\obj\Debug\net7.0\HWBlazor.UnitTests.genruntimeconfig.cache
 C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\obj\Debug\net7.0\ref\HWBlazor.UnitTests.dll
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\HWBlazor.deps.json
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\HWBlazor.runtimeconfig.json
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\appsettings.json
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\HWBlazor.staticwebassets.runtime.json
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\HWBlazor.exe
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\HWBlazor.dll
+C:\Users\Trill'\Desktop\Projets\CICD\HWBlazorCICD\tests\HWBlazor.UnitTests\bin\Debug\net7.0\HWBlazor.pdb
