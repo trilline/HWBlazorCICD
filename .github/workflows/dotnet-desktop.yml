@@ -102,7 +102,7 @@ jobs:
         dotnet-version: 7.0.x
     #---------test du code qui fonctionne sur azure 
     - name: DotNetCoreCLI@2
-      uses: otNetCoreCLI@2
+      uses: DotNetCoreCLI@2
       with:
         run: 'build'
     - name: DotNetCoreCLI@2
