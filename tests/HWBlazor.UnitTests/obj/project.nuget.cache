@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7tQw95+Ht96YoTlZ/ur4hIgC4vyAUE2GH9PDnvl4p/dlK85InHhFLl/FGftjX2uNwg+LMwQjXe2HVE38FnuPA==",
+  "dgSpecHash": "qxSIeJ2wLv7UzkAlbPKHZcSmzyTfPu4kKCyjlmo82AXt6TTL2UGHYU1SWTE0X38KprKyTDQUanTdDL3OnrFKMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\tests\\HWBlazor.UnitTests\\HWBlazor.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Trill'\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\Trill'\\.nuget\\packages\\coverlet.msbuild\\6.0.0\\coverlet.msbuild.6.0.0.nupkg.sha512",
     "C:\\Users\\Trill'\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\Trill'\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\Trill'\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

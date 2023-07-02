@@ -107,7 +107,7 @@ jobs:
     #    dotnet-version: 7.0.x
 
     - name: Execute unit tests
-      run: dotnet test --projects tests\HWBlazor.UnitTests\HWBlazor.UnitTests.csproj
+      run: dotnet test --projects tests/HWBlazor.UnitTests/HWBlazor.UnitTests.csproj
         
   deploy:
     needs: build
