@@ -96,6 +96,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+    #---------test du code qui fonctionne sur azure 
+    - name: DotNetCoreCLI@2
+      uses: otNetCoreCLI@2
+      with:
+        run: 'build'
+    - name: DotNetCoreCLI@2
+      uses: DotNetCoreCLI@2
+      with:
+        run: 'test'
+        projects: '**/*[Tt]est*/*.csproj'
+        publishTestResults: false
+        arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura --collect "Code coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura --settings:coverage.runsettings'
+    - name: PublishCodeCoverageResults@1
+      uses: PublishCodeCoverageResults@1
+      with:
+        codeCoverageTool: 'Cobertura'
+        summaryFileLocation: '**/*cobertura.xml'
+    #-------------
     #- name: checkout
     #  uses: action/checkout@v3
     #  with:
