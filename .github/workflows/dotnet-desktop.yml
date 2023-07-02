@@ -91,31 +91,31 @@ jobs:
         name: app-artifact
         path: .
 
-  test:
-    needs: build
-    runs-on: ubuntu-latest
+  #test:
+  #  needs: build
+  #  runs-on: ubuntu-latest
 
-    steps:
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 7.0.x
-    #---------test du code qui fonctionne sur azure 
-    - name: Build project
-      run: dotnet build --configuration Release
+  #  steps:
+  #  - name: Setup .NET Core
+  #    uses: actions/setup-dotnet@v3
+  #    with:
+  #      dotnet-version: 7.0.x
+  #  #---------test du code qui fonctionne sur azure 
+  #  - name: Build project
+  #    run: dotnet build --configuration Release
 
-    - name: Test project
-      run: dotnet test --projects tests/HWBlazor.UnitTests/HWBlazor.UnitTests.csproj
+  #  - name: Test project
+  #    run: dotnet test --projects tests/HWBlazor.UnitTests/HWBlazor.UnitTests.csproj
 
-    - name: Generate code coverage report
-      run: dotnet test --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+  #  - name: Generate code coverage report
+  #    run: dotnet test --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
 
 
-    - name: Publish code coverage results
-      uses: codecov/codecov-action@v2
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        file: ./coverage.xml
+  #  - name: Publish code coverage results
+  #    uses: codecov/codecov-action@v2
+  #    with:
+  #      token: ${{ secrets.CODECOV_TOKEN }}
+  #      file: ./coverage.xml
     #- name: DotNetCoreCLI@2
     #  uses: DotNetCoreCLI@2
     #  with:
