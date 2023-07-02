@@ -101,22 +101,33 @@ jobs:
       with:
         dotnet-version: 7.0.x
     #---------test du code qui fonctionne sur azure 
-    - name: DotNetCoreCLI@2
-      uses: DotNetCoreCLI@2
+    - name: Build project
+      run: dotnet build --configuration Release
+
+    - name: Test project
+      run: dotnet test --projects tests/HWBlazor.UnitTests/HWBlazor.UnitTests.csproj
+
+    - name: Generate code coverage report
+      run: dotnet test --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+
+
+    - name: Publish code coverage results
+      uses: codecov/codecov-action@v2
       with:
-        run: 'build'
-    - name: DotNetCoreCLI@2
-      uses: DotNetCoreCLI@2
-      with:
-        run: 'test'
-        projects: '**/*[Tt]est*/*.csproj'
-        publishTestResults: false
-        arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura --collect "Code coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura --settings:coverage.runsettings'
-    - name: PublishCodeCoverageResults@1
-      uses: PublishCodeCoverageResults@1
-      with:
-        codeCoverageTool: 'Cobertura'
-        summaryFileLocation: '**/*cobertura.xml'
+        token: ${{ secrets.CODECOV_TOKEN }}
+        file: ./coverage.xml
+    #- name: DotNetCoreCLI@2
+    #  uses: DotNetCoreCLI@2
+    #  with:
+    #    run: 'test'
+    #    projects: '**/*[Tt]est*/*.csproj'
+    #    publishTestResults: false
+    #    arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura --collect "Code coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura --settings:coverage.runsettings'
+    #- name: PublishCodeCoverageResults@1
+    #  uses: PublishCodeCoverageResults@1
+    #  with:
+    #    codeCoverageTool: 'Cobertura'
+    #    summaryFileLocation: '**/*cobertura.xml'
     #-------------
     #- name: checkout
     #  uses: action/checkout@v3
@@ -128,8 +139,8 @@ jobs:
     #  with:
     #    dotnet-version: 7.0.x
 
-    - name: Execute unit tests
-      run: dotnet test --projects tests/HWBlazor.UnitTests/HWBlazor.UnitTests.csproj
+    #- name: Execute unit tests
+    #  run: dotnet test --projects tests/HWBlazor.UnitTests/HWBlazor.UnitTests.csproj
         
   deploy:
     needs: build
