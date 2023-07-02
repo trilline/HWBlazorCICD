@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\HWBlazor.csproj": {}
+    "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\HWBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\HWBlazor.csproj": {
+    "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\HWBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\HWBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\HWBlazor.csproj",
         "projectName": "HWBlazor",
-        "projectPath": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\HWBlazor.csproj",
+        "projectPath": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\HWBlazor.csproj",
         "packagesPath": "C:\\Users\\Trill'\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\obj\\",
+        "outputPath": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

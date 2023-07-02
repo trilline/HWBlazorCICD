@@ -90,6 +90,24 @@ jobs:
       with:
         name: app-artifact
         path: .
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: action/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+
+    - name: Execute unit tests
+      run: dotnet test --projects "*/*[Tt]est*/*.csproj"
         
   deploy:
     needs: build

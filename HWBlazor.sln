@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWBlazor", "HWBlazor\HWBlazor.csproj", "{C36D43B4-2B25-44C4-B249-B99E18218F15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWBlazor", "HWBlazor\HWBlazor.csproj", "{C36D43B4-2B25-44C4-B249-B99E18218F15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9E372BE1-31F3-4B65-B649-035C62EF57E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWBlazor.UnitTests", "tests\HWBlazor.UnitTests\HWBlazor.UnitTests.csproj", "{725B28A5-8F16-4379-AE1B-4693D68CF884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{C36D43B4-2B25-44C4-B249-B99E18218F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36D43B4-2B25-44C4-B249-B99E18218F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36D43B4-2B25-44C4-B249-B99E18218F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725B28A5-8F16-4379-AE1B-4693D68CF884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725B28A5-8F16-4379-AE1B-4693D68CF884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725B28A5-8F16-4379-AE1B-4693D68CF884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725B28A5-8F16-4379-AE1B-4693D68CF884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{725B28A5-8F16-4379-AE1B-4693D68CF884} = {9E372BE1-31F3-4B65-B649-035C62EF57E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {382E439B-D610-43EC-B059-7AB464771D42}

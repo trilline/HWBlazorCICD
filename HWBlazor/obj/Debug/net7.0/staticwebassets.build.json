@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gUd6Q6Hd0GrMRExCdkk9u/R2sHBHKN700r1qwRfp5DM=",
+  "Hash": "0/xN1cbYOJDZPQaEmyHhF+c3oQhSG7H4VUVDghCAR9U=",
   "Source": "HWBlazor",
   "BasePath": "_content/HWBlazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HWBlazor\\wwwroot",
       "Source": "HWBlazor",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HWBlazor.styles.css",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HWBlazor.styles.css",
       "SourceId": "HWBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "HWBlazor.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HWBlazor.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HWBlazor.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HWBlazor.bundle.scp.css",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HWBlazor.bundle.scp.css",
       "SourceId": "HWBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "HWBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HWBlazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HWBlazor.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\css\\site.css",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\favicon.png",
       "SourceId": "HWBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\wwwroot\\",
       "BasePath": "_content/HWBlazor",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

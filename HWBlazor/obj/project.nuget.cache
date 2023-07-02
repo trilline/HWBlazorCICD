@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ase+NsVsk3c/szrp0CL98KHYErLdRLyV1bjViy4xZhURfnF9Xo7OYWYvX6FgCWTtZ0vRj9gntJxonYBUhUKb5w==",
+  "dgSpecHash": "HMI76eSYeSKwR1V8gSzwsa4padXGIiZAT45SRQeAY5EDSTnPIapphoKIwUp1Qn6sKXcF4SnjpQaWPsvYJ1OPQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Trill'\\source\\repos\\HWBlazor\\HWBlazor\\HWBlazor.csproj",
+  "projectFilePath": "C:\\Users\\Trill'\\Desktop\\Projets\\CICD\\HWBlazorCICD\\HWBlazor\\HWBlazor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
